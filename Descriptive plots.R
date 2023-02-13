@@ -25,12 +25,12 @@ annotate("text",label = "a,d",size=5,colour="black",x = 3, y=310)+
 annotate("text",label = "a,b,c",size=5,colour="black",x = 4, y=990)+
 annotate("text",label = "c",size=5,colour="black",x = 5, y=1760)+
 annotate("text",label = "c",size=5,colour="black",x = 6, y=1700)+
-annotate("text",label = "b,c",size=5,colour="black",x = 7, y=990)+
-annotate("text",label = "b,c",size=5,colour="black",x = 8, y=870)+
-annotate("text",label = "b,c",size=5,colour="black",x = 9, y=420)+
-annotate("text",label = "b,c",size=5,colour="black",x = 10, y=330)+
-annotate("text",label = "b,c",size=5,colour="black",x = 11, y=310)+
-annotate("text",label = "b,c",size=5,colour="black",x = 12, y=540)+
+annotate("text",label = "a,b,c",size=5,colour="black",x = 7, y=990)+
+annotate("text",label = "a,b,c",size=5,colour="black",x = 8, y=870)+
+annotate("text",label = "a,b,d",size=5,colour="black",x = 9, y=420)+
+annotate("text",label = "d",size=5,colour="black",x = 10, y=330)+
+annotate("text",label = "d",size=5,colour="black",x = 11, y=310)+
+annotate("text",label = "d",size=5,colour="black",x = 12, y=540)+
 theme(panel.grid = element_blank(),strip.placement = "outside",
 strip.background = element_rect(fill=NA),panel.spacing = unit(0,"cm"),axis.title.x = element_text(vjust = -1),axis.text.x = element_text(colour="black",size=15),
 axis.text.y = element_text(colour="black",size=12),
